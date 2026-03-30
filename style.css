@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#pantalla{
+    width: 100vw;
+    height: 100vh;
+    cursor: crosshair;
+}
+
+#contador{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#objetivo{
+    background-image: url(../GALERIADETIRO/img/objetivo.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: absolute; /*Necesario para que JS lo pueda mover*/
+    transition: 0.1;
+}
